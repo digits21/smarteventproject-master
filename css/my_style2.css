@@ -1,0 +1,167 @@
+/**
+*feuille de style pour les formulaires de connexion et d'inscription
+*/
+
+.form_section{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 50px;
+    background-color: #ffffff;
+    box-shadow: 5px 10px 50px 5px #7c7979;
+}
+
+.form_section h1 {
+    text-align: center;
+    color: #000000;
+}
+
+.form_section hr {
+    width: 25%;
+    text-align: center;
+    height: 5px;
+    background-color: #ff3b6d;
+    margin-bottom: 25px;
+    border: none;
+}
+
+.form_section form {
+    background-color: none;
+    padding: 20px;
+}
+
+.form_section form input {
+    display: block;
+    width: 80%;
+    margin-left: 10%;
+    height: 40px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.form_section form textarea {
+    display: block;
+    width: 80%;
+    margin-left: 10%;
+    min-height: 200px;
+    max-height: 350px;
+    resize: vertical;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.form_section form .submit_btn {
+    background: #ff3b6d;
+    border: none;
+    color: #ffffff;
+}
+
+.form_section form .submit_btn:hover {
+    background: #f82b5e;
+    color: #ececec;
+}
+
+.form_section form a {
+    display: inline;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.account {
+    background-color: #ffffff;
+    box-shadow: 5px 10px 50px 5px #7c7979;
+    text-align: center;
+    padding: 5%;
+}
+
+.account .avatar {
+    width: 200px;
+    border: 1px solid #ff3b6d;
+    border-radius: 50%;
+    margin-bottom: 5%;
+}
+
+.account .avatar:hover {
+    opacity: 0.5;
+    background-image: url(../images/ic_camera.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.account h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+}
+
+.account hr {
+    width: 25%;
+    text-align: center;
+    height: 5px;
+    background-color: #ff3b6d;
+    margin-bottom: 25px;
+    border: none;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.my_listing_section {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 5%;
+    background-color: #ececec;
+}
+
+.my_listing_section hr {
+    width: 10%;
+}
+
+.my_listing {
+    padding-top: 5%;
+}
+
+.my_listing h3 {
+    width: 100%;
+    margin-bottom: 5%;
+    text-align: center;
+    color: #000000;
+}
+
+.modify {
+    color: #35b0e9;
+}
+
+.modify:hover {
+    color: #3dc00a;
+}
+
+.delete:hover {
+    color: #ff0000;
+}
+
+.add_listing {
+    width: 100%;
+    
+}
+
+.add_listing a img {
+    width: 50px;
+    border: 1px solid #ff3b6d;
+    border-radius: 50%;
+}
+
+.add_listing a img:hover {
+    opacity: 0.5;
+}
+
+footer ul {
+    display: block;
+}
+
+footer nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
