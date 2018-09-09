@@ -37,6 +37,7 @@
         <p>
             to confirm your registration, click this button
         </p>
+        <!--il faudrait change url ici je t suggère d utiliser $_SERVER['HTTP_POST']-->
         <a href="http://smarteventproject-master.test/config/mail_confirm.php?email='.$email.'">
             <button class="btn btn-primary">confirm</button>
         </a>
